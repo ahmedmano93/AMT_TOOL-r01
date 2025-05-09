@@ -1,0 +1,31 @@
+{
+    "ANDROID_Forensics": [
+        { "path": "ANDROID_Forensics" },
+        { "path": "EXTCSD_BACKUP" },
+        { "path": "ExtFsDRV" },
+        { "path": "FIRMWARE_BACKUP" },
+        { "path": "HUAWEI_BACKUP" },
+        { "path": "KIRIN" },
+        { "path": "Logs" },
+        { "path": "META_NV_BACKUP" },
+        { "path": "MT6789_Infinix X6731B_Infinix X6731B_INFINIX_" },
+        { "path": "MTK_DUMPS" },
+        { "path": "MTK_LK_BK" },
+        { "path": "scripts" }
+    ],
+    "settings": {
+        "python.pythonPath": "python",
+        "python.testing.unittestEnabled": true,
+        "python.testing.pytestEnabled": true,
+        "python.testing.autoTestDiscoverOnSaveEnabled": true
+    },
+    "run": {
+        "command": "python",
+        "args": [
+            "main.py"
+        ],
+        "options": {
+            "cwd": "."
+        }
+    }
+}
